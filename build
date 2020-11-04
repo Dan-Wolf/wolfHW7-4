@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Build generator.cpp to make executable generator"
+g++ generator.cpp -o generator
+echo "Finished"
